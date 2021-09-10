@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-kubernetes-example
+
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
